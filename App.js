@@ -5,6 +5,7 @@ import { useFonts } from "expo-font";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import CategoriesScreen from "./screens/CategoriesScreen";
+import MealDetailScreen from "./screens/MealDetailScreen";
 import MealsOverviewScreen from "./screens/MealsOverviewScreen";
 
 const Stack = createNativeStackNavigator();
@@ -42,6 +43,7 @@ export default function App() {
 						}}
 					/>
 					<Stack.Screen name="MealsOverview" component={MealsOverviewScreen} />
+					<Stack.Screen name="MealDetail" component={MealDetailScreen} />
 				</Stack.Navigator>
 			</NavigationContainer>
 		</>
