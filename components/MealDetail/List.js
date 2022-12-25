@@ -2,8 +2,8 @@ import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
 const List = ({ data }) => {
-	return data.map((dataPoint) => (
-		<View style={styles.listItem}>
+	return data.map((dataPoint, index) => (
+		<View key={index} style={styles.listItem}>
 			<Text key={dataPoint} style={styles.listText}>
 				{dataPoint}
 			</Text>

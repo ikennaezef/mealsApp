@@ -26,6 +26,7 @@ const MyDrawer = () => {
 				drawerContentStyle: { backgroundColor: "#351401" },
 				drawerInactiveTintColor: "white",
 				drawerActiveTintColor: "#3f2f25",
+				drawerLabelStyle: { fontFamily: "jakarta-sans-bold" },
 				drawerActiveBackgroundColor: "#d6a180",
 				headerTitleAlign: "center",
 				headerTitleStyle: {
